@@ -6,7 +6,7 @@
     "municipality": "Boadilla del Monte",
     "locationArea": "alrededores",
     "address": "Avenida del Siglo XXI 12, 28660 Boadilla del Monte, Madrid",
-    "distance": "Boadilla del Monte · 11.5 km (14 min)",
+    "distance": "Boadilla del Monte · 13.2 km (18 min en coche desde Villanueva)",
     "rating": 4.9,
     "reviewCount": 470,
     "priceForTwo": 68,
@@ -17,7 +17,7 @@
       "Parrilla japonesa Robatayaki",
       "Luz tenue y reservados"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kobe+Izakaya+Boadilla",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kobe%20Izakaya%20%26%20Robata%20Boadilla%20Boadilla%20del%20Monte",
     "reviews": [
       {
         "author": "Carlos Medina",
@@ -30,7 +30,11 @@
       "/photos/boa-kobe/photo-1.jpg",
       "/photos/boa-kobe/photo-2.jpg",
       "/photos/boa-kobe/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4092,
+      "lng": -3.8785
+    }
   },
   {
     "id": "poz-sushita",
@@ -39,7 +43,7 @@
     "municipality": "Pozuelo de Alarcón",
     "locationArea": "alrededores",
     "address": "Avenida de Europa 11, 28224 Pozuelo de Alarcón, Madrid",
-    "distance": "Pozuelo de Alarcón · 12.8 km (14 min)",
+    "distance": "Pozuelo de Alarcón · 20.4 km (26 min en coche desde Villanueva)",
     "rating": 4.8,
     "reviewCount": 820,
     "priceForTwo": 60,
@@ -50,7 +54,7 @@
       "Nigiris de pez mantequilla con trufa",
       "Coctelería de autor"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushita+Cafe+Pozuelo",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushita%20Caf%C3%A9%20Pozuelo%20Pozuelo%20de%20Alarc%C3%B3n",
     "reviews": [
       {
         "author": "Nuria Albelda",
@@ -63,7 +67,11 @@
       "/photos/poz-sushita/photo-1.jpg",
       "/photos/poz-sushita/photo-2.jpg",
       "/photos/poz-sushita/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4418,
+      "lng": -3.8005
+    }
   },
   {
     "id": "poz-grosso",
@@ -72,7 +80,7 @@
     "municipality": "Pozuelo de Alarcón",
     "locationArea": "alrededores",
     "address": "Avenida de Europa 16, 28224 Pozuelo de Alarcón, Madrid",
-    "distance": "Pozuelo de Alarcón · 12.5 km (14 min)",
+    "distance": "Pozuelo de Alarcón · 20.5 km (27 min en coche desde Villanueva)",
     "rating": 4.8,
     "reviewCount": 750,
     "priceForTwo": 44,
@@ -83,7 +91,7 @@
       "Masa fermentada 48h",
       "Postre Isempre Dolce"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grosso+Napoletano+Pozuelo",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grosso%20Napoletano%20Pozuelo%20Pozuelo%20de%20Alarc%C3%B3n",
     "reviews": [
       {
         "author": "Álvaro Herrero",
@@ -97,7 +105,11 @@
       "/photos/poz-grosso/photo-2.jpg",
       "/photos/poz-grosso/photo-3.jpg",
       "/photos/poz-grosso/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4412,
+      "lng": -3.7995
+    }
   },
   {
     "id": "maj-nonnamia",
@@ -105,8 +117,8 @@
     "cuisine": "Italiano",
     "municipality": "Majadahonda",
     "locationArea": "alrededores",
-    "address": "Gran Vía 42, 28220 Majadahonda, Madrid",
-    "distance": "Majadahonda · 9.2 km (12 min)",
+    "address": "Calle Gran Vía 22, 28220 Majadahonda, Madrid",
+    "distance": "Majadahonda · 13.6 km (18 min en coche desde Villanueva)",
     "rating": 4.8,
     "reviewCount": 630,
     "priceForTwo": 52,
@@ -117,7 +129,7 @@
       "Burrata de Puglia importada",
       "Cócteles Spritz"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nonna+Mia+Majadahonda",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nonna%20Mia%20Osteria%20Majadahonda",
     "reviews": [
       {
         "author": "Valeria Cano",
@@ -131,7 +143,11 @@
       "/photos/maj-nonnamia/photo-2.jpg",
       "/photos/maj-nonnamia/photo-3.jpg",
       "/photos/maj-nonnamia/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4735,
+      "lng": -3.869
+    }
   },
   {
     "id": "vva-viajera",
@@ -140,7 +156,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Calle Cristo 26, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 250 m",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.8,
     "reviewCount": 520,
     "priceForTwo": 30,
@@ -151,7 +167,7 @@
       "Cervezas artesanas de grifo",
       "Terraza animada para parejas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Viajera+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Viajera%20Burger%20%26%20Beer%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Antonio M",
@@ -177,7 +193,11 @@
       "/photos/vva-viajera/photo-2.jpg",
       "/photos/vva-viajera/photo-3.jpg",
       "/photos/vva-viajera/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4472,
+      "lng": -3.9935
+    }
   },
   {
     "id": "vva-pulperia",
@@ -186,7 +206,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Calle Real 22, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 300 m",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.8,
     "reviewCount": 460,
     "priceForTwo": 58,
@@ -197,7 +217,7 @@
       "Pulpo a feira tradicional",
       "Albariño y Mencía de bodega"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Pulperia+de+Victoria+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Pulper%C3%ADa%20de%20Victoria%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Patricia Gil",
@@ -217,7 +237,11 @@
       "/photos/vva-pulperia/photo-2.jpg",
       "/photos/vva-pulperia/photo-3.jpg",
       "/photos/vva-pulperia/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4478,
+      "lng": -3.992
+    }
   },
   {
     "id": "vva-gustibus",
@@ -226,7 +250,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Calle Camargo 2, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 350 m",
+    "distance": "Villanueva de la Cañada · 150 m (2 min a pie desde el centro)",
     "rating": 4.8,
     "reviewCount": 412,
     "priceForTwo": 46,
@@ -237,7 +261,7 @@
       "Pizzas al horno de piedra",
       "Ambiente íntimo italiano"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=De+Gustibus+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=De%20Gustibus%20Trattoria%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "GAS",
@@ -257,7 +281,11 @@
       "/photos/vva-gustibus/photo-2.jpg",
       "/photos/vva-gustibus/photo-3.jpg",
       "/photos/vva-gustibus/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4468,
+      "lng": -3.9942
+    }
   },
   {
     "id": "vva-kobesushi",
@@ -266,7 +294,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Avenida de la Universidad 8, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 450 m",
+    "distance": "Villanueva de la Cañada · 400 m (5 min a pie desde el centro)",
     "rating": 4.8,
     "reviewCount": 310,
     "priceForTwo": 54,
@@ -277,7 +305,7 @@
       "Gyozas caseras al vapor",
       "Ambiente íntimo con luz tenue"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kobe%20Sushi%20Lounge%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Marta Soler",
@@ -290,7 +318,11 @@
       "/photos/vva-kobesushi/photo-1.jpg",
       "/photos/vva-kobesushi/photo-2.jpg",
       "/photos/vva-kobesushi/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4452,
+      "lng": -3.9968
+    }
   },
   {
     "id": "vva-atenea",
@@ -298,8 +330,8 @@
     "cuisine": "Desayuno / Merienda",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Real 16, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 280 m",
+    "address": "Plaza de España 4, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.8,
     "reviewCount": 210,
     "priceForTwo": 18,
@@ -310,7 +342,7 @@
       "Café de especialidad",
       "Tartas caseras de queso y zanahoria"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe+Atenea+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20%26%20Brunch%20Atenea%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Lucía Bermejo",
@@ -323,7 +355,11 @@
       "/photos/vva-atenea/photo-1.jpg",
       "/photos/vva-atenea/photo-2.jpg",
       "/photos/vva-atenea/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4476,
+      "lng": -3.9926
+    }
   },
   {
     "id": "maj-goiko",
@@ -332,7 +368,7 @@
     "municipality": "Majadahonda",
     "locationArea": "alrededores",
     "address": "Carretera de Pozuelo 48, 28220 Majadahonda, Madrid",
-    "distance": "Majadahonda · 8.9 km (11 min)",
+    "distance": "Majadahonda · 13.3 km (18 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 810,
     "priceForTwo": 36,
@@ -343,7 +379,7 @@
       "Tequeños con salsa dulce",
       "Ambiente moderno para citas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Goiko+Majadahonda",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Goiko%20Grill%20Majadahonda%20Majadahonda",
     "reviews": [
       {
         "author": "Nacho Prieto",
@@ -357,7 +393,11 @@
       "/photos/maj-goiko/photo-2.jpg",
       "/photos/maj-goiko/photo-3.jpg",
       "/photos/maj-goiko/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.472,
+      "lng": -3.8715
+    }
   },
   {
     "id": "roz-sushita",
@@ -365,8 +405,8 @@
     "cuisine": "Sushi",
     "municipality": "Las Rozas",
     "locationArea": "alrededores",
-    "address": "Calle Camilo José Cela 2, 28232 Las Rozas, Madrid",
-    "distance": "Las Rozas · 12.0 km (14 min)",
+    "address": "Calle Juan Ramón Jiménez 4, 28232 Las Rozas, Madrid",
+    "distance": "Las Rozas · 13.5 km (18 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 680,
     "priceForTwo": 58,
@@ -377,7 +417,7 @@
       "Nigiris de pez mantequilla con trufa",
       "Postres de autor"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushita+Cafe+Las+Rozas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushita%20Caf%C3%A9%20Las%20Rozas%20Las%20Rozas",
     "reviews": [
       {
         "author": "Belén Morales",
@@ -390,7 +430,11 @@
       "/photos/roz-sushita/photo-1.jpg",
       "/photos/roz-sushita/photo-2.jpg",
       "/photos/roz-sushita/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.506,
+      "lng": -3.8912
+    }
   },
   {
     "id": "maj-guetaria",
@@ -398,8 +442,8 @@
     "cuisine": "Carne",
     "municipality": "Majadahonda",
     "locationArea": "alrededores",
-    "address": "Carretera de Boadilla 2, 28220 Majadahonda, Madrid",
-    "distance": "Majadahonda · 8.5 km (10 min)",
+    "address": "Carretera de Boadilla 8, 28220 Majadahonda, Madrid",
+    "distance": "Majadahonda · 13.1 km (18 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 580,
     "priceForTwo": 82,
@@ -410,7 +454,7 @@
       "Parrilla de carbón vista",
       "Bodega selecta"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador+Guetaria+Majadahonda",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador%20Guetaria%20Majadahonda%20Majadahonda",
     "reviews": [
       {
         "author": "Ignacio Barba",
@@ -424,7 +468,11 @@
       "/photos/maj-guetaria/photo-2.jpg",
       "/photos/maj-guetaria/photo-3.jpg",
       "/photos/maj-guetaria/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4715,
+      "lng": -3.873
+    }
   },
   {
     "id": "boa-acebo",
@@ -433,7 +481,7 @@
     "municipality": "Boadilla del Monte",
     "locationArea": "alrededores",
     "address": "Avenida del Siglo XXI 16, 28660 Boadilla del Monte, Madrid",
-    "distance": "Boadilla del Monte · 11.2 km (13 min)",
+    "distance": "Boadilla del Monte · 13.1 km (18 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 520,
     "priceForTwo": 65,
@@ -444,7 +492,7 @@
       "Fabada y sidrería asturiana",
       "Terraza climatizada"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Acebo+Boadilla",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurante%20El%20Acebo%20de%20Boadilla%20Boadilla%20del%20Monte",
     "reviews": [
       {
         "author": "Federico Sanz",
@@ -458,7 +506,11 @@
       "/photos/boa-acebo/photo-2.jpg",
       "/photos/boa-acebo/photo-3.jpg",
       "/photos/boa-acebo/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4085,
+      "lng": -3.88
+    }
   },
   {
     "id": "poz-lafinca",
@@ -466,8 +518,8 @@
     "cuisine": "Carne",
     "municipality": "Pozuelo de Alarcón",
     "locationArea": "alrededores",
-    "address": "Paseo del Club Deportivo 4, 28223 Pozuelo de Alarcón, Madrid",
-    "distance": "Pozuelo de Alarcón · 13.8 km (15 min)",
+    "address": "Paseo Club Deportivo 4, 28223 Pozuelo de Alarcón, Madrid",
+    "distance": "Pozuelo de Alarcón · 19.1 km (25 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 520,
     "priceForTwo": 78,
@@ -478,7 +530,7 @@
       "Entorno elegante con jardines",
       "Servicio de sommelier"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Finca+Pozuelo+Restaurante",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Finca%20Brasa%20%26%20Fuego%20Pozuelo%20de%20Alarc%C3%B3n",
     "reviews": [
       {
         "author": "Raúl Domínguez",
@@ -492,7 +544,11 @@
       "/photos/poz-lafinca/photo-2.jpg",
       "/photos/poz-lafinca/photo-3.jpg",
       "/photos/poz-lafinca/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4285,
+      "lng": -3.8145
+    }
   },
   {
     "id": "boa-piccola",
@@ -500,8 +556,8 @@
     "cuisine": "Italiano",
     "municipality": "Boadilla del Monte",
     "locationArea": "alrededores",
-    "address": "Avenida Infante Don Luis 14, 28660 Boadilla del Monte, Madrid",
-    "distance": "Boadilla del Monte · 11.8 km (14 min)",
+    "address": "Avenida Infante Don Luis 10, 28660 Boadilla del Monte, Madrid",
+    "distance": "Boadilla del Monte · 13.3 km (18 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 490,
     "priceForTwo": 48,
@@ -512,7 +568,7 @@
       "Pizzas al horno de leña",
       "Tiramisú casero"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria+Piccola+Boadilla",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria%20Piccola%20Boadilla%20Boadilla%20del%20Monte",
     "reviews": [
       {
         "author": "Mateo Ortiz",
@@ -526,7 +582,11 @@
       "/photos/boa-piccola/photo-2.jpg",
       "/photos/boa-piccola/photo-3.jpg",
       "/photos/boa-piccola/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.41,
+      "lng": -3.877
+    }
   },
   {
     "id": "bru-cortijo",
@@ -535,7 +595,7 @@
     "municipality": "Brunete",
     "locationArea": "alrededores",
     "address": "Calle Real de San Sebastián 14, 28690 Brunete, Madrid",
-    "distance": "Brunete · 4.8 km (7 min)",
+    "distance": "Brunete · 6 km (9 min en coche desde Villanueva)",
     "rating": 4.7,
     "reviewCount": 430,
     "priceForTwo": 54,
@@ -546,7 +606,7 @@
       "Cordero asado en horno de leña",
       "Postres caseros"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador+El+Cortijo+Brunete",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador%20El%20Cortijo%20Brunete%20Brunete",
     "reviews": [
       {
         "author": "Jorge Herrero",
@@ -560,7 +620,11 @@
       "/photos/bru-cortijo/photo-2.jpg",
       "/photos/bru-cortijo/photo-3.jpg",
       "/photos/bru-cortijo/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4045,
+      "lng": -3.9992
+    }
   },
   {
     "id": "vva-laurel",
@@ -569,7 +633,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Calle Arquitectura 7, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 550 m",
+    "distance": "Villanueva de la Cañada · 450 m (6 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 380,
     "priceForTwo": 42,
@@ -580,7 +644,7 @@
       "Cocina mediterránea e italiana fusión",
       "Postres caseros"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Laurel+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El%20Laurel%20Jard%C3%ADn%20%26%20Tapas%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Claudia Moreno",
@@ -594,7 +658,11 @@
       "/photos/vva-laurel/photo-2.jpg",
       "/photos/vva-laurel/photo-3.jpg",
       "/photos/vva-laurel/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4502,
+      "lng": -3.9965
+    }
   },
   {
     "id": "vva-italiana",
@@ -603,7 +671,7 @@
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
     "address": "Calle Cristo 34, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 400 m",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 320,
     "priceForTwo": 42,
@@ -614,7 +682,7 @@
       "Lasaña casera de la nonna",
       "Limoncello de cortesía"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=All+Italiana+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=All%E2%80%99Italiana%20Ristorante%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Pablo Méndez",
@@ -634,7 +702,11 @@
       "/photos/vva-italiana/photo-2.jpg",
       "/photos/vva-italiana/photo-3.jpg",
       "/photos/vva-italiana/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4471,
+      "lng": -3.9938
+    }
   },
   {
     "id": "vva-ladescarada",
@@ -642,8 +714,8 @@
     "cuisine": "Burguer",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Camargo 14, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 390 m",
+    "address": "Calle Cristo 22, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 310,
     "priceForTwo": 35,
@@ -654,7 +726,7 @@
       "Croquetas cremosas caseras",
       "Terraza chill out"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Descarada+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Descarada%20Gastrobar%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Mario San Juan",
@@ -668,7 +740,11 @@
       "/photos/vva-ladescarada/photo-2.jpg",
       "/photos/vva-ladescarada/photo-3.jpg",
       "/photos/vva-ladescarada/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4475,
+      "lng": -3.9931
+    }
   },
   {
     "id": "vva-yuzu",
@@ -676,8 +752,8 @@
     "cuisine": "Sushi",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Real 25, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 380 m",
+    "address": "Avenida de Madrid 28, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 200 m (3 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 265,
     "priceForTwo": 48,
@@ -688,7 +764,7 @@
       "Tartar de atún rojo",
       "Cócteles exóticos"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yuzu+Sushi+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yuzu%20Asian%20%26%20Sushi%20Lounge%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Sara Bellido",
@@ -701,7 +777,11 @@
       "/photos/vva-yuzu/photo-1.jpg",
       "/photos/vva-yuzu/photo-2.jpg",
       "/photos/vva-yuzu/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4483,
+      "lng": -3.991
+    }
   },
   {
     "id": "vva-horno",
@@ -709,8 +789,8 @@
     "cuisine": "Desayuno / Merienda",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Cristo 8, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 350 m",
+    "address": "Calle Real 8, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 195,
     "priceForTwo": 16,
@@ -721,7 +801,7 @@
       "Palmeras de chocolate fondant",
       "Zumo de naranja recién exprimido"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pasteleria+El+Horno+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pasteler%C3%ADa%20%26%20Obrador%20El%20Horno%20de%20la%20Ca%C3%B1ada%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Paloma Vargas",
@@ -734,7 +814,11 @@
       "/photos/vva-horno/photo-1.jpg",
       "/photos/vva-horno/photo-2.jpg",
       "/photos/vva-horno/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4477,
+      "lng": -3.9922
+    }
   },
   {
     "id": "vva-sweetcoffee",
@@ -742,8 +826,8 @@
     "cuisine": "Desayuno / Merienda",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Empedrada 4, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 550 m",
+    "address": "Avenida de Madrid 39, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 250 m (3 min a pie desde el centro)",
     "rating": 4.7,
     "reviewCount": 185,
     "priceForTwo": 20,
@@ -754,7 +838,7 @@
       "Pancakes con sirope de arce",
       "Matcha latte y smoothies"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sweet+Coffee+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sweet%20%26%20Coffee%20Corner%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Paula Saiz",
@@ -767,7 +851,11 @@
       "/photos/vva-sweetcoffee/photo-1.jpg",
       "/photos/vva-sweetcoffee/photo-2.jpg",
       "/photos/vva-sweetcoffee/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4486,
+      "lng": -3.9906
+    }
   },
   {
     "id": "maj-misssushi",
@@ -775,8 +863,8 @@
     "cuisine": "Sushi",
     "municipality": "Majadahonda",
     "locationArea": "alrededores",
-    "address": "Calle Moreras 42, 28220 Majadahonda, Madrid",
-    "distance": "Majadahonda · 9.5 km (12 min)",
+    "address": "Plaza de Colón 3, 28220 Majadahonda, Madrid",
+    "distance": "Majadahonda · 13.7 km (18 min en coche desde Villanueva)",
     "rating": 4.6,
     "reviewCount": 640,
     "priceForTwo": 52,
@@ -787,7 +875,7 @@
       "Decoración sofisticada en tonos rosa",
       "Cócteles de autor"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Miss+Sushi+Majadahonda",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Miss%20Sushi%20Majadahonda%20Majadahonda",
     "reviews": [
       {
         "author": "Marta Solano",
@@ -800,7 +888,11 @@
       "/photos/maj-misssushi/photo-1.jpg",
       "/photos/maj-misssushi/photo-2.jpg",
       "/photos/maj-misssushi/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.474,
+      "lng": -3.868
+    }
   },
   {
     "id": "roz-nostra",
@@ -809,7 +901,7 @@
     "municipality": "Las Rozas",
     "locationArea": "alrededores",
     "address": "Calle Camilo José Cela 2, 28232 Las Rozas, Madrid",
-    "distance": "Las Rozas · 11.2 km (13 min)",
+    "distance": "Las Rozas · 13.6 km (18 min en coche desde Villanueva)",
     "rating": 4.6,
     "reviewCount": 620,
     "priceForTwo": 34,
@@ -820,7 +912,7 @@
       "Panes artesanales horneados",
       "Salsas exclusivas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hamburguesa+Nostra+Las+Rozas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hamburguesa%20Nostra%20Las%20Rozas%20Las%20Rozas",
     "reviews": [
       {
         "author": "Laura Crespo",
@@ -834,7 +926,11 @@
       "/photos/roz-nostra/photo-2.jpg",
       "/photos/roz-nostra/photo-3.jpg",
       "/photos/roz-nostra/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.5052,
+      "lng": -3.8895
+    }
   },
   {
     "id": "bru-pilar",
@@ -843,7 +939,7 @@
     "municipality": "Brunete",
     "locationArea": "alrededores",
     "address": "Plaza Mayor 6, 28690 Brunete, Madrid",
-    "distance": "Brunete · 4.5 km (6 min)",
+    "distance": "Brunete · 5.9 km (9 min en coche desde Villanueva)",
     "rating": 4.6,
     "reviewCount": 350,
     "priceForTwo": 48,
@@ -854,7 +950,7 @@
       "Guisos tradicionales",
       "Carnes de la sierra"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurante+El+Pilar+Brunete",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurante%20El%20Pilar%20Brunete",
     "reviews": [
       {
         "author": "Tomás Prieto",
@@ -868,7 +964,11 @@
       "/photos/bru-pilar/photo-2.jpg",
       "/photos/bru-pilar/photo-3.jpg",
       "/photos/bru-pilar/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4052,
+      "lng": -3.9985
+    }
   },
   {
     "id": "vva-brasa",
@@ -876,8 +976,8 @@
     "cuisine": "Carne",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Cristo 12, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 450 m",
+    "address": "Calle Severo Ochoa 9, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 550 m (7 min a pie desde el centro)",
     "rating": 4.6,
     "reviewCount": 290,
     "priceForTwo": 52,
@@ -888,7 +988,7 @@
       "Parrilla de carbón de encina",
       "Vinos de Ribera"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador+La+Brasa+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador%20La%20Brasa%20de%20la%20Ca%C3%B1ada%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Fernando Ruiz",
@@ -902,7 +1002,11 @@
       "/photos/vva-brasa/photo-2.jpg",
       "/photos/vva-brasa/photo-3.jpg",
       "/photos/vva-brasa/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.451,
+      "lng": -3.9978
+    }
   },
   {
     "id": "vva-craftburger",
@@ -910,8 +1014,8 @@
     "cuisine": "Burguer",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Cristo 19, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 300 m",
+    "address": "Calle Empedrada 14, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.6,
     "reviewCount": 289,
     "priceForTwo": 32,
@@ -922,7 +1026,7 @@
       "Pan brioche artesano",
       "Cervezas de autor"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Craft+Burger+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Craft%20Burger%20Lab%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "David Navarro",
@@ -936,7 +1040,11 @@
       "/photos/vva-craftburger/photo-2.jpg",
       "/photos/vva-craftburger/photo-3.jpg",
       "/photos/vva-craftburger/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4466,
+      "lng": -3.9924
+    }
   },
   {
     "id": "bru-pizzeria",
@@ -944,8 +1052,8 @@
     "cuisine": "Italiano",
     "municipality": "Brunete",
     "locationArea": "alrededores",
-    "address": "Calle Caridad 8, 28690 Brunete, Madrid",
-    "distance": "Brunete · 4.6 km (6 min)",
+    "address": "Calle Asunción 4, 28690 Brunete, Madrid",
+    "distance": "Brunete · 6.1 km (9 min en coche desde Villanueva)",
     "rating": 4.6,
     "reviewCount": 280,
     "priceForTwo": 36,
@@ -956,7 +1064,7 @@
       "Calzones rellenos",
       "Pasta casera"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria+Brunete",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizzer%C3%ADa%20Trattoria%20Brunete%20Brunete",
     "reviews": [
       {
         "author": "Nuria Beltrán",
@@ -970,7 +1078,11 @@
       "/photos/bru-pizzeria/photo-2.jpg",
       "/photos/bru-pizzeria/photo-3.jpg",
       "/photos/bru-pizzeria/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4038,
+      "lng": -4.0002
+    }
   },
   {
     "id": "vva-lagoleta",
@@ -978,8 +1090,8 @@
     "cuisine": "Carne",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Valle del Roncal 5, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 480 m",
+    "address": "Calle Camargo 8, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.6,
     "reviewCount": 275,
     "priceForTwo": 38,
@@ -990,7 +1102,7 @@
       "Huevos rotos con jamón de bellota",
       "Vinos por copas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Taberna+La+Goleta+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Taberna%20La%20Goleta%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Enrique Beltrán",
@@ -1004,7 +1116,11 @@
       "/photos/vva-lagoleta/photo-2.jpg",
       "/photos/vva-lagoleta/photo-3.jpg",
       "/photos/vva-lagoleta/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4469,
+      "lng": -3.9936
+    }
   },
   {
     "id": "vva-sangines",
@@ -1012,8 +1128,8 @@
     "cuisine": "Desayuno / Merienda",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de la Universidad 12, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 450 m",
+    "address": "Calle Cristo 8, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.6,
     "reviewCount": 230,
     "priceForTwo": 14,
@@ -1024,7 +1140,7 @@
       "Chocolate a la taza espeso",
       "Desayunos tradicionales"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=San+Gines+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Churrer%C3%ADa%20Chocolater%C3%ADa%20San%20Gin%C3%A9s%20Express%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Inés Cordero",
@@ -1037,7 +1153,11 @@
       "/photos/vva-sangines/photo-1.jpg",
       "/photos/vva-sangines/photo-2.jpg",
       "/photos/vva-sangines/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4474,
+      "lng": -3.993
+    }
   },
   {
     "id": "vva-polloscanada",
@@ -1045,8 +1165,8 @@
     "cuisine": "Pollo",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Real 31, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 380 m",
+    "address": "Avenida de Madrid 52, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 300 m (4 min a pie desde el centro)",
     "rating": 4.6,
     "reviewCount": 165,
     "priceForTwo": 26,
@@ -1057,7 +1177,7 @@
       "Patatas panaderas aromatizadas",
       "Cervezas bien frías"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pollos+Asados+La+Cañada+Villanueva",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pollos%20Asados%20La%20Ca%C3%B1ada%20Gourmet%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Teresa Cano",
@@ -1070,7 +1190,11 @@
       "/photos/vva-polloscanada/photo-1.jpg",
       "/photos/vva-polloscanada/photo-2.jpg",
       "/photos/vva-polloscanada/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.449,
+      "lng": -3.9902
+    }
   },
   {
     "id": "vva-sakura",
@@ -1078,8 +1202,8 @@
     "cuisine": "Sushi",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de Madrid 30, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 620 m",
+    "address": "Avenida de la Universidad 14, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 350 m (5 min a pie desde el centro)",
     "rating": 4.5,
     "reviewCount": 240,
     "priceForTwo": 42,
@@ -1090,7 +1214,7 @@
       "Noodles al wok",
       "Mochis artesanos de té verde"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura+Sushi+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20Wok%20%26%20Roll%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Guillermo Nieto",
@@ -1103,7 +1227,11 @@
       "/photos/vva-sakura/photo-1.jpg",
       "/photos/vva-sakura/photo-2.jpg",
       "/photos/vva-sakura/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4455,
+      "lng": -3.9962
+    }
   },
   {
     "id": "vva-fogon",
@@ -1111,8 +1239,8 @@
     "cuisine": "Carne",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de Gaudí 18, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 600 m",
+    "address": "Calle Real 15, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.5,
     "reviewCount": 230,
     "priceForTwo": 48,
@@ -1123,7 +1251,7 @@
       "Embutidos ibéricos al corte",
       "Ambiente tradicional"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Fogon+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=El%20Fog%C3%B3n%20de%20la%20Ca%C3%B1ada%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Alba Ramos",
@@ -1137,7 +1265,11 @@
       "/photos/vva-fogon/photo-2.jpg",
       "/photos/vva-fogon/photo-3.jpg",
       "/photos/vva-fogon/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4481,
+      "lng": -3.9918
+    }
   },
   {
     "id": "vva-bosforo",
@@ -1145,8 +1277,8 @@
     "cuisine": "Kebab",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida Juan Gris 8, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 500 m",
+    "address": "Calle Cristo 12, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 50 m (1 min a pie desde el centro)",
     "rating": 4.5,
     "reviewCount": 215,
     "priceForTwo": 22,
@@ -1157,7 +1289,7 @@
       "Carne 100% ternera y cordero",
       "Especialidades turcas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kebab+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=B%C3%B3sforo%20Anatolia%20Grill%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Sergio Castro",
@@ -1170,7 +1302,11 @@
       "/photos/vva-bosforo/photo-1.jpg",
       "/photos/vva-bosforo/photo-2.jpg",
       "/photos/vva-bosforo/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4473,
+      "lng": -3.9932
+    }
   },
   {
     "id": "vva-pollosvalle",
@@ -1178,8 +1314,8 @@
     "cuisine": "Pollo",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Empedrada 11, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 600 m",
+    "address": "Calle Empedrada 6, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 150 m (2 min a pie desde el centro)",
     "rating": 4.5,
     "reviewCount": 198,
     "priceForTwo": 28,
@@ -1190,7 +1326,7 @@
       "Salsas caseras especiadas",
       "Raciones generosas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pollo+Asador+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Asador%20Le%C3%B1a%20y%20Pollos%20El%20Valle%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Raquel Serrano",
@@ -1203,7 +1339,11 @@
       "/photos/vva-pollosvalle/photo-1.jpg",
       "/photos/vva-pollosvalle/photo-2.jpg",
       "/photos/vva-pollosvalle/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4463,
+      "lng": -3.9922
+    }
   },
   {
     "id": "vva-tgb",
@@ -1211,8 +1351,8 @@
     "cuisine": "Burguer",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de la Universidad 4, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 400 m",
+    "address": "Avenida de Madrid 45, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 200 m (3 min a pie desde el centro)",
     "rating": 4.4,
     "reviewCount": 340,
     "priceForTwo": 24,
@@ -1223,7 +1363,7 @@
       "Pan de mantequilla tostado",
       "Promociones para compartir"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=TGB+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Good%20Burger%20TGB%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Alejandro Cruz",
@@ -1237,7 +1377,11 @@
       "/photos/vva-tgb/photo-2.jpg",
       "/photos/vva-tgb/photo-3.jpg",
       "/photos/vva-tgb/photo-4.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4485,
+      "lng": -3.9908
+    }
   },
   {
     "id": "vva-granier",
@@ -1245,8 +1389,8 @@
     "cuisine": "Desayuno / Merienda",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Cristo 15, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 300 m",
+    "address": "Avenida de Madrid 18, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 200 m (3 min a pie desde el centro)",
     "rating": 4.4,
     "reviewCount": 190,
     "priceForTwo": 12,
@@ -1257,7 +1401,7 @@
       "Muffins artesanos",
       "Bocadillos recién tostados"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Granier+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Granier%20Bakery%20%26%20Caf%C3%A9%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Esteban Molina",
@@ -1270,7 +1414,11 @@
       "/photos/vva-granier/photo-1.jpg",
       "/photos/vva-granier/photo-2.jpg",
       "/photos/vva-granier/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4484,
+      "lng": -3.9909
+    }
   },
   {
     "id": "vva-istanbul",
@@ -1278,8 +1426,8 @@
     "cuisine": "Kebab",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Cristo 40, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 320 m",
+    "address": "Calle Real 42, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.4,
     "reviewCount": 180,
     "priceForTwo": 20,
@@ -1290,7 +1438,7 @@
       "Salsa de yogur con hierbabuena",
       "Servicio exprés"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Istanbul+Kebab+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Istanbul%20D%C3%B6ner%20Kebab%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Álex Marín",
@@ -1303,7 +1451,11 @@
       "/photos/vva-istanbul/photo-1.jpg",
       "/photos/vva-istanbul/photo-2.jpg",
       "/photos/vva-istanbul/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.448,
+      "lng": -3.9916
+    }
   },
   {
     "id": "vva-100m",
@@ -1311,8 +1463,8 @@
     "cuisine": "Fast Food",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de la Universidad 6, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 400 m",
+    "address": "Calle Real 38, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.3,
     "reviewCount": 410,
     "priceForTwo": 16,
@@ -1323,7 +1475,7 @@
       "Tablas para compartir",
       "Jarras heladas"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=100+Montaditos+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=100%20Montaditos%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Víctor Alarcón",
@@ -1336,7 +1488,11 @@
       "/photos/vva-100m/photo-1.jpg",
       "/photos/vva-100m/photo-2.jpg",
       "/photos/vva-100m/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4479,
+      "lng": -3.9915
+    }
   },
   {
     "id": "vva-dominos",
@@ -1344,8 +1500,8 @@
     "cuisine": "Fast Food",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Avenida de la Universidad 10, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 420 m",
+    "address": "Avenida de Madrid 32, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 150 m (2 min a pie desde el centro)",
     "rating": 4.3,
     "reviewCount": 290,
     "priceForTwo": 22,
@@ -1356,7 +1512,7 @@
       "Pizzas especialidad",
       "Recogida rápida"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dominos+Pizza+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Domino%E2%80%99s%20Pizza%20Villanueva%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Iván Carrasco",
@@ -1369,7 +1525,11 @@
       "/photos/vva-dominos/photo-1.jpg",
       "/photos/vva-dominos/photo-2.jpg",
       "/photos/vva-dominos/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.4482,
+      "lng": -3.9912
+    }
   },
   {
     "id": "vva-telepizza",
@@ -1377,8 +1537,8 @@
     "cuisine": "Fast Food",
     "municipality": "Villanueva de la Cañada",
     "locationArea": "villanueva",
-    "address": "Calle Real 18, 28691 Villanueva de la Cañada, Madrid",
-    "distance": "Villanueva de la Cañada · 320 m",
+    "address": "Calle Cristo 18, 28691 Villanueva de la Cañada, Madrid",
+    "distance": "Villanueva de la Cañada · 100 m (1 min a pie desde el centro)",
     "rating": 4.2,
     "reviewCount": 220,
     "priceForTwo": 20,
@@ -1389,7 +1549,7 @@
       "Promociones para 2",
       "Servicio rápido"
     ],
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Telepizza+Villanueva+de+la+Cañada",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Telepizza%20Villanueva%20de%20la%20Ca%C3%B1ada%20Villanueva%20de%20la%20Ca%C3%B1ada",
     "reviews": [
       {
         "author": "Sergio Lozano",
@@ -1402,6 +1562,10 @@
       "/photos/vva-telepizza/photo-1.jpg",
       "/photos/vva-telepizza/photo-2.jpg",
       "/photos/vva-telepizza/photo-3.jpg"
-    ]
+    ],
+    "coordinates": {
+      "lat": 40.447,
+      "lng": -3.994
+    }
   }
 ]

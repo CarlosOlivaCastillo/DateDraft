@@ -43,6 +43,10 @@ export interface Restaurant {
   reviews: Review[];
   googleMapsUrl: string;
   address: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
   highlights: string[];
   aiRecommendationNote?: string;
 }
