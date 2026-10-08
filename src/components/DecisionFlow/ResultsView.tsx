@@ -143,61 +143,6 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
         </div>
       </div>
 
-      {/* Date Advisory Box */}
-      {geminiAnalysis && (
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="bg-white/95 border border-rose-200 rounded-2xl p-4 mb-4 shadow-xs relative overflow-hidden"
-        >
-          <div className="flex items-center gap-1.5 text-[#E63946] font-bold text-[11px] uppercase tracking-wider mb-1.5">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Mi recomendación para la cita</span>
-          </div>
-
-          <p className="text-xs sm:text-sm font-semibold text-gray-900 leading-snug mb-3">
-            {geminiAnalysis.matchSummary}
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-rose-100 text-xs">
-            <div className="bg-rose-50/70 p-2.5 rounded-xl">
-              <span className="font-bold text-gray-800 block mb-0.5 text-[11px]">
-                Cómo ir vestidos:
-              </span>
-              <p className="text-gray-600 leading-tight text-xs">
-                {geminiAnalysis.dressSuggestion}
-              </p>
-            </div>
-
-            <div className="bg-rose-50/70 p-2.5 rounded-xl">
-              <span className="font-bold text-gray-800 block mb-0.5 text-[11px]">
-                El rollo del sitio:
-              </span>
-              <p className="text-gray-600 leading-tight text-xs">
-                {geminiAnalysis.estimatedVibe}
-              </p>
-            </div>
-          </div>
-
-          {geminiAnalysis.romanticTips && geminiAnalysis.romanticTips.length > 0 && (
-            <div className="mt-2.5 pt-2 border-t border-rose-50">
-              <div className="flex items-center gap-1 text-[11px] font-bold text-gray-800 mb-1.5">
-                <Lightbulb className="w-3 h-3 text-amber-500" />
-                <span>Detalles para que la cita salga genial:</span>
-              </div>
-              <ul className="space-y-1 text-xs text-gray-600">
-                {geminiAnalysis.romanticTips.map((tip, i) => (
-                  <li key={i} className="flex items-start gap-1.5">
-                    <span className="text-[#E63946] font-bold">•</span>
-                    <span className="leading-snug">{tip}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </motion.div>
-      )}
-
       {/* Restaurant Cards List (Clean Typographic Design without photos) */}
       <AnimatePresence mode="popLayout">
         <div className="space-y-3.5">
