@@ -12,16 +12,22 @@
   }
 
   body {
-    background: linear-gradient(135deg, #FFF5F7 0%, #FFE9EF 50%, #FFF0F4 100%);
+    background: #0a0a0a;
     color: #1F2937;
     font-family: var(--font-sans);
     min-height: 100vh;
+    min-height: 100dvh;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
   }
+}
+
+.safe-area-bottom {
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
 }
 
 /* Custom scrollbar */

@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               Date<span className="text-[#E63946]">Draft</span>
             </span>
             <span className="text-[9px] font-semibold text-gray-400 tracking-wider uppercase">
-              Asistente Gastronómico
+              Nuestro Asistente
             </span>
           </div>
         </div>

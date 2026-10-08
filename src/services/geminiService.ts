@@ -24,26 +24,24 @@ export class GeminiService {
         : 'Indiferente / Sin restricción de etiqueta';
 
     const promptText = `
-Eres el asesor gastronómico y de citas de DateDraft.
-Analiza las siguientes preferencias de una pareja para su cita:
+Eres el asesor personal de citas de DateDraft.
+Habla en primera persona, cercano y natural (como el anfitrión organizando el plan para la pareja):
 - Desplazamiento: ${
       preferences.wantsToDrive === false
-        ? 'Sin conducir (Villanueva de la Cañada)'
-        : preferences.driveDuration === 'mucho'
-        ? 'Madrid Centro'
-        : 'Alrededores cercanos'
+        ? 'Aquí en Villanueva de la Cañada (a pie / muy cerca)'
+        : 'Nos movemos en coche por los alrededores'
     }
-- Nivel de arreglo/elegancia: ${dressText}
-- Tipos de comida elegidos: ${cuisinesList}
-- Opciones seleccionadas: ${restaurants.map((r) => r.name).join(', ')}
+- Nivel de arreglo: ${dressText}
+- Comida elegida: ${cuisinesList}
+- Opciones: ${restaurants.map((r) => r.name).join(', ')}
 
 IMPORTANTE: Prohibido estrictamente el uso de emojis en todo el texto.
 Genera un análisis breve en formato JSON con:
 {
-  "matchSummary": "Frase elegante que sintetiza por qué este plan encaja a la perfección con su apetito y ubicación.",
-  "dressSuggestion": "Consejo sobrio y conciso sobre el atuendo adecuado.",
-  "romanticTips": ["Consejo 1 para la velada", "Consejo 2 para la velada"],
-  "estimatedVibe": "Estilo de la velada (ej. Velada íntima y acogedora)"
+  "matchSummary": "Frase natural y cercana que explique por qué estos sitios son ideales para nuestro plan de hoy.",
+  "dressSuggestion": "Consejo directo y claro sobre cómo ir vestidos.",
+  "romanticTips": ["Detalle o consejo 1 para la cita", "Detalle o consejo 2 para la cita"],
+  "estimatedVibe": "Ambiente de la velada (ej. Cena íntima y tranquila)"
 }
 `;
 
@@ -70,10 +68,10 @@ Genera un análisis breve en formato JSON con:
           if (rawText) {
             const parsed = JSON.parse(rawText);
             return {
-              matchSummary: parsed.matchSummary || 'Selección personalizada ajustada a vuestro plan.',
-              dressSuggestion: parsed.dressSuggestion || 'Atuendo acorde al ambiente seleccionado.',
-              romanticTips: Array.isArray(parsed.romanticTips) ? parsed.romanticTips : ['Reservar mesa con antelación'],
-              estimatedVibe: parsed.estimatedVibe || 'Ambiente cuidado y agradable',
+              matchSummary: parsed.matchSummary || 'He seleccionado estos sitios porque encajan perfecto con lo que nos apetece hoy.',
+              dressSuggestion: parsed.dressSuggestion || 'Ropa cuidada y acorde al sitio.',
+              romanticTips: Array.isArray(parsed.romanticTips) ? parsed.romanticTips : ['Pedir una mesa tranquila al fondo'],
+              estimatedVibe: parsed.estimatedVibe || 'Ambiente acogedor y agradable',
             };
           }
         }
@@ -87,38 +85,36 @@ Genera un análisis breve en formato JSON con:
 
   private static getFallbackAnalysis(preferences: UserPreferences): GeminiDateAnalysis {
     const dress = preferences.dressLevel;
-    let vibe = 'Velada distendida y relajada';
-    let suggestion = 'Ropa cómoda y cuidada, calzado informal elegante.';
+    let vibe = 'Plan relajado y con buen rollo';
+    let suggestion = 'Ropa cómoda y arreglada, calzado cuidado sin complicaciones.';
 
     if (dress !== null && dress >= 8) {
-      vibe = 'Cena exclusiva de alta etiqueta';
-      suggestion = 'Traje o americana elegante, vestido de noche y zapatos formales.';
+      vibe = 'Cena elegante y especial de noche';
+      suggestion = 'Americana o vestido elegante, zapatos formales y un toque sofisticado.';
     } else if (dress !== null && dress >= 4) {
-      vibe = 'Cita chic con ambiente cálido';
-      suggestion = 'Camisa, calzado cuidado, toque sofisticado sin excesiva rigidez.';
+      vibe = 'Cita cuidada con ambiente cálido';
+      suggestion = 'Camisa, vestido mono y calzado limpio para un look arreglado pero casual.';
     } else if (dress === null) {
-      vibe = 'Cita flexible y agradable';
-      suggestion = 'Viste como más cómodo te sientas, los locales seleccionados admiten un estilo versátil.';
+      vibe = 'Cita informal y muy apetecible';
+      suggestion = 'Vamos como más a gusto estemos, los locales elegidos admiten cualquier estilo.';
     }
 
     const areaText =
       preferences.wantsToDrive === false
-        ? 'en Villanueva de la Cañada para mayor comodidad'
-        : preferences.driveDuration === 'mucho'
-        ? 'en Madrid Centro para vivir una experiencia cosmopolita'
-        : 'en los alrededores cercanos para una velada dinámica';
+        ? 'aquí mismo en Villanueva de la Cañada'
+        : 'por los alrededores cercanos';
 
     const cuisinesText = preferences.cuisines?.length
       ? preferences.cuisines.join(' / ')
       : 'variada';
 
     return {
-      matchSummary: `Hemos seleccionado las mejores opciones de cocina ${cuisinesText} ${areaText}.`,
+      matchSummary: `He seleccionado las mejores opciones de ${cuisinesText} ${areaText} para que disfrutemos de una gran cena juntos.`,
       dressSuggestion: suggestion,
       romanticTips: [
-        'Solicitar una mesa rinconera o con luz tenue para mayor privacidad.',
-        'Dejar margen de 15 minutos para llegar con tranquilidad.',
-        'Preguntar por el plato estrella del chef fuera de carta.',
+        'Pedir una mesa en una esquina o zona tranquila para charlar a gusto.',
+        'Salir con 10 minutos de margen para llegar sin prisas.',
+        'Preguntar por las sugerencias fuera de carta de la casa.',
       ],
       estimatedVibe: vibe,
     };

@@ -9,10 +9,10 @@ interface LoadingTransitionProps {
 }
 
 const STEPS = [
-  { label: 'Analizando locales de la zona seleccionada', icon: Search },
-  { label: 'Calculando radio geográfico y accesibilidad', icon: MapPin },
-  { label: 'Sincronizando nivel de etiqueta y ambiente', icon: Shirt },
-  { label: 'Curando las mejores mesas para dos personas', icon: Utensils },
+  { label: 'Revisando los mejores locales para nosotros', icon: Search },
+  { label: 'Comprobando distancias desde Villanueva', icon: MapPin },
+  { label: 'Ajustando el ambiente a nuestro estilo', icon: Shirt },
+  { label: 'Seleccionando las mejores mesas para dos', icon: Utensils },
 ];
 
 export const LoadingTransition: React.FC<LoadingTransitionProps> = ({
@@ -29,11 +29,11 @@ export const LoadingTransition: React.FC<LoadingTransitionProps> = ({
         }
         return prev;
       });
-    }, 600);
+    }, 550);
 
     const finishTimeout = setTimeout(() => {
       onFinished();
-    }, 2600);
+    }, 2400);
 
     return () => {
       clearInterval(interval);
@@ -50,7 +50,7 @@ export const LoadingTransition: React.FC<LoadingTransitionProps> = ({
       className="w-full max-w-sm mx-auto text-center py-6 px-2"
     >
       {/* Animated Core */}
-      <div className="relative w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+      <div className="relative w-20 h-20 mx-auto mb-5 flex items-center justify-center">
         <motion.div
           animate={{ scale: [1, 1.3, 1], opacity: [0.35, 0.7, 0.35] }}
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
@@ -68,10 +68,10 @@ export const LoadingTransition: React.FC<LoadingTransitionProps> = ({
 
       {/* Main Title */}
       <h2 className="text-2xl font-bold text-gray-900 tracking-tight mb-1.5">
-        Analizando locales
+        Buscando nuestro sitio...
       </h2>
-      <p className="text-xs text-gray-500 mb-6 max-w-xs mx-auto">
-        Comprobando disponibilidad, ambiente y valoraciones en tiempo real.
+      <p className="text-xs text-gray-500 mb-5 max-w-xs mx-auto">
+        Filtrando los mejores restaurantes que encajan con lo que hemos elegido.
       </p>
 
       {/* Progress Steps List */}

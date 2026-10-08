@@ -31,15 +31,15 @@ export const QuestionDrive: React.FC<QuestionDriveProps> = ({
       className="w-full max-w-sm mx-auto"
     >
       {/* Step Counter */}
-      <div className="text-center mb-5">
+      <div className="text-center mb-4">
         <span className="text-[11px] font-bold uppercase tracking-widest text-[#E63946]">
           Paso 1 de 3
         </span>
         <h2 className="text-xl sm:text-2xl font-extrabold text-gray-900 tracking-tight mt-1">
-          ¿Te apetece conducir?
+          ¿Nos apetece coger el coche?
         </h2>
         <p className="text-xs text-gray-500 mt-0.5">
-          Definamos el radio geográfico de vuestra cita.
+          Dime si nos quedamos por aquí cerca o nos movemos un poco.
         </p>
       </div>
 
@@ -73,12 +73,12 @@ export const QuestionDrive: React.FC<QuestionDriveProps> = ({
               </span>
             )}
           </div>
-          <div className="text-base font-bold text-gray-900 mb-0.5">No</div>
+          <div className="text-base font-bold text-gray-900 mb-0.5">Nos quedamos</div>
           <p className="text-[11px] text-gray-500 leading-tight">
-            Quedarnos en <span className="font-semibold text-gray-700">Villanueva de la Cañada</span>.
+            En <span className="font-semibold text-gray-700">Villanueva de la Cañada</span>, sin líos de coche.
           </p>
           <div className="mt-2.5 inline-block px-2 py-0.5 rounded-md bg-rose-50 border border-rose-100 text-[10px] font-semibold text-rose-700">
-            Todos los locales
+            A pie o muy cerca
           </div>
         </button>
 
@@ -111,9 +111,9 @@ export const QuestionDrive: React.FC<QuestionDriveProps> = ({
               </span>
             )}
           </div>
-          <div className="text-base font-bold text-gray-900 mb-0.5">Sí</div>
+          <div className="text-base font-bold text-gray-900 mb-0.5">Nos movemos</div>
           <p className="text-[11px] text-gray-500 leading-tight">
-            Explorar alrededores y municipios cercanos.
+            Cogemos el coche y vamos a algún sitio chulo de alrededor.
           </p>
           <div className="mt-2.5 inline-block px-2 py-0.5 rounded-md bg-rose-50 border border-rose-100 text-[10px] font-semibold text-rose-700">
             Hasta Pozuelo
@@ -135,7 +135,7 @@ export const QuestionDrive: React.FC<QuestionDriveProps> = ({
               <div className="flex items-center gap-1.5 mb-2.5">
                 <Navigation className="w-3.5 h-3.5 text-[#E63946]" />
                 <h3 className="text-xs font-bold text-gray-900">
-                  Radio de desplazamiento:
+                  ¿Cuánto trayecto nos apetece?
                 </h3>
               </div>
 
@@ -180,7 +180,7 @@ export const QuestionDrive: React.FC<QuestionDriveProps> = ({
                     Próximamente
                   </div>
                   <p className="text-[10px] text-gray-400 mt-1 leading-tight">
-                    Enfoque actual en zona noroeste.
+                    Por ahora mejor cerca de nuestra zona.
                   </p>
                 </div>
               </div>

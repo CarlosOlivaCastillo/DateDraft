@@ -110,10 +110,10 @@ export const QuestionCuisine: React.FC<QuestionCuisineProps> = ({
           Paso 3 de 3
         </span>
         <h2 className="text-xl sm:text-2xl font-extrabold text-gray-900 tracking-tight mt-1">
-          ¿Qué tipo de comida buscas?
+          ¿Qué nos apetece cenar hoy?
         </h2>
         <p className="text-xs text-gray-500 mt-0.5">
-          Puedes seleccionar <span className="font-semibold text-gray-700">uno o varios tipos</span>.
+          Elige <span className="font-semibold text-gray-700">una o varias cosas</span> que te llamen la atención.
         </p>
       </div>
 
@@ -172,8 +172,8 @@ export const QuestionCuisine: React.FC<QuestionCuisineProps> = ({
         <div className="text-center mb-3">
           <span className="text-[11px] font-semibold text-rose-800 bg-rose-50 border border-rose-200 px-3 py-1 rounded-full">
             {cuisines.length === 1
-              ? '1 tipo de comida seleccionado'
-              : `${cuisines.length} tipos de comida seleccionados`}
+              ? '1 tipo de comida elegido'
+              : `${cuisines.length} tipos de comida elegidos para nuestro plan`}
           </span>
         </div>
       )}
@@ -200,7 +200,7 @@ export const QuestionCuisine: React.FC<QuestionCuisineProps> = ({
           }`}
         >
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Ver locales</span>
+          <span>Ver nuestros sitios</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </button>
       </div>

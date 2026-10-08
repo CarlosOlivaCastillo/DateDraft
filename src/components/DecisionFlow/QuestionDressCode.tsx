@@ -22,21 +22,21 @@ export const QuestionDressCode: React.FC<QuestionDressCodeProps> = ({
   const getStyleCategory = (level: number) => {
     if (level <= 3) {
       return {
-        title: 'Casual & Relajado',
-        description: 'Zapatillas cómodas, vaqueros y ropa desenfadada sin pretensiones.',
+        title: 'De relax / Cómodos',
+        description: 'Zapatillas, vaqueros y ropa cómoda sin complicarnos la vida.',
         icon: Shirt,
       };
     }
     if (level <= 7) {
       return {
-        title: 'Smart Casual / Arreglado',
-        description: 'Camisa o blusa cuidada, calzado elegante, toque chic y sofisticado.',
+        title: 'Arreglados pero informales',
+        description: 'Camisa, vestido mono, calzado cuidado y un toque guay para la cita.',
         icon: Sparkles,
       };
     }
     return {
-      title: 'Elegante & De Gala',
-      description: 'Traje, americana impecable, vestido de noche y ambiente selecto.',
+      title: 'Muy elegantes / Puestos',
+      description: 'Americana, vestido especial, perfume y ambiente top de noche.',
       icon: Crown,
     };
   };
@@ -58,10 +58,10 @@ export const QuestionDressCode: React.FC<QuestionDressCodeProps> = ({
           Paso 2 de 3
         </span>
         <h2 className="text-xl sm:text-2xl font-extrabold text-gray-900 tracking-tight mt-1">
-          ¿Cuánto te apetece arreglarte?
+          ¿Cómo de arreglados vamos?
         </h2>
         <p className="text-xs text-gray-500 mt-0.5">
-          Ajusta el nivel de etiqueta o salta este paso si te da igual.
+          Para que vayamos los dos a juego con el rollo del restaurante.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ export const QuestionDressCode: React.FC<QuestionDressCodeProps> = ({
             </div>
             <div>
               <div className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">
-                Estilo
+                Nuestro Estilo
               </div>
               <div className="text-sm font-bold text-gray-900 leading-tight">
                 {styleInfo.title}
@@ -127,9 +127,9 @@ export const QuestionDressCode: React.FC<QuestionDressCodeProps> = ({
 
           {/* Scale Labels */}
           <div className="flex justify-between items-center text-[9px] uppercase font-semibold text-gray-400 mt-1.5">
-            <span>1 · Casual</span>
-            <span>5 · Smart</span>
-            <span>10 · Gala</span>
+            <span>1 · Relax</span>
+            <span>5 · Cuidado</span>
+            <span>10 · Top gala</span>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@ export const QuestionDressCode: React.FC<QuestionDressCodeProps> = ({
           className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-600 hover:text-[#E63946] bg-white border border-rose-200 hover:border-[#E63946] px-4 py-2 rounded-xl transition-all shadow-xs cursor-pointer"
         >
           <FastForward className="w-3.5 h-3.5 text-[#E63946]" />
-          <span>Saltar dresscode (Me da igual el estilo)</span>
+          <span>Nos da igual (vamos como queramos)</span>
         </button>
       </div>
 

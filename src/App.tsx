@@ -122,9 +122,9 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-900 flex justify-center items-stretch sm:py-6">
-      {/* Mobile App Viewport Container */}
-      <div className="w-full max-w-md min-h-screen sm:min-h-[844px] bg-gradient-to-b from-[#FFF5F7] via-[#FFEBF0] to-[#FFF0F4] text-gray-900 flex flex-col font-sans selection:bg-rose-200 selection:text-rose-900 sm:rounded-[36px] sm:shadow-2xl sm:border sm:border-rose-200/60 overflow-x-hidden relative">
+    <div className="min-h-screen min-h-[100dvh] bg-neutral-950 flex justify-center items-stretch sm:py-6 sm:px-4">
+      {/* Mobile App Viewport Container (optimized for iPhone 15 logical width 393px - 420px) */}
+      <div className="w-full max-w-[420px] min-h-screen min-h-[100dvh] sm:min-h-[844px] bg-gradient-to-b from-[#FFF5F7] via-[#FFEBF0] to-[#FFF0F4] text-gray-900 flex flex-col font-sans selection:bg-rose-200 selection:text-rose-900 sm:rounded-[36px] sm:shadow-2xl sm:border sm:border-rose-200/60 overflow-x-hidden relative">
         {/* Top Navigation */}
         <Navbar
           currentStep={step >= 1 && step <= 3 ? step : 0}
@@ -134,7 +134,7 @@ export const App: React.FC = () => {
         />
 
         {/* Main Content Area */}
-        <main className="flex-1 w-full px-4 pt-5 pb-8 flex flex-col justify-center">
+        <main className="flex-1 w-full px-4 pt-4 pb-6 flex flex-col justify-center">
           <AnimatePresence mode="wait">
             {step === 0 && (
               <WelcomeStep key="welcome" onStart={() => setStep(1)} />
@@ -194,11 +194,11 @@ export const App: React.FC = () => {
           </AnimatePresence>
         </main>
 
-        {/* Mobile App Footer Bar */}
-        <footer className="w-full border-t border-rose-100 bg-white/60 py-3 text-center text-[10px] text-gray-400">
+        {/* Mobile App Footer Bar with Safe Area */}
+        <footer className="w-full border-t border-rose-100 bg-white/70 py-2.5 text-center text-[10px] text-gray-400 safe-area-bottom">
           <div className="px-4 flex items-center justify-between">
-            <span>DateDraft App</span>
-            <span>Villanueva · Madrid</span>
+            <span className="font-semibold text-gray-500">DateDraft</span>
+            <span>Villanueva & Alrededores</span>
           </div>
         </footer>
       </div>
