@@ -7,20 +7,17 @@ import {
   ExternalLink,
   Sparkles,
   SlidersHorizontal,
-  Lightbulb,
   Dice5,
   Dice6,
   RotateCcw,
   SearchX,
 } from 'lucide-react';
 import type { Restaurant, UserPreferences } from '../../types/restaurant';
-import type { GeminiDateAnalysis } from '../../services/geminiService';
 import { ReviewItem } from '../ReviewItem';
 
 interface ResultsViewProps {
   restaurants: Restaurant[];
   preferences: UserPreferences;
-  geminiAnalysis: GeminiDateAnalysis | null;
   onReset: () => void;
   onRedraft: () => void;
 }
@@ -28,7 +25,6 @@ interface ResultsViewProps {
 export const ResultsView: React.FC<ResultsViewProps> = ({
   restaurants,
   preferences,
-  geminiAnalysis,
   onReset,
   onRedraft,
 }) => {

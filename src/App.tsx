@@ -8,7 +8,6 @@ import { QuestionCuisine } from './components/DecisionFlow/QuestionCuisine';
 import { LoadingTransition } from './components/DecisionFlow/LoadingTransition';
 import { ResultsView } from './components/DecisionFlow/ResultsView';
 import { RestaurantService } from './services/restaurantService';
-import { GeminiService, type GeminiDateAnalysis } from './services/geminiService';
 import type { CuisineType, Restaurant, UserPreferences } from './types/restaurant';
 
 export const App: React.FC = () => {
@@ -24,7 +23,6 @@ export const App: React.FC = () => {
 
   const [redraftCount, setRedraftCount] = useState<number>(0);
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
-  const [geminiAnalysis, setGeminiAnalysis] = useState<GeminiDateAnalysis | null>(null);
 
   const handleSelectDrive = (wants: boolean) => {
     setPreferences((prev) => ({
@@ -87,9 +85,6 @@ export const App: React.FC = () => {
     try {
       const results = await RestaurantService.findIdealRestaurants(preferences, 0);
       setRestaurants(results);
-
-      const analysis = await GeminiService.analyzeDatePreferences(preferences, results);
-      setGeminiAnalysis(analysis);
     } catch (err) {
       console.error('Error fetching recommendations:', err);
     }
@@ -116,7 +111,6 @@ export const App: React.FC = () => {
       cuisines: [],
     });
     setRestaurants([]);
-    setGeminiAnalysis(null);
     setRedraftCount(0);
     setStep(0);
   };
@@ -186,7 +180,6 @@ export const App: React.FC = () => {
                 key="step-results"
                 restaurants={restaurants}
                 preferences={preferences}
-                geminiAnalysis={geminiAnalysis}
                 onReset={handleReset}
                 onRedraft={handleRedraft}
               />
